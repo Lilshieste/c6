@@ -1,6 +1,8 @@
 #ifndef Holding_h
 #define Holding_h
 
+#include <numeric>
+#include <vector>
 #include "PurchaseRecord.h"
 
 class Holding {
