@@ -1,3 +1,4 @@
+#include <numeric>
 #include "Portfolio.h"
 #include "PurchaseRecord.h"
 
