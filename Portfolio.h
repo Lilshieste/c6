@@ -44,7 +44,7 @@ private:
    template<typename T>
    T Find(std::unordered_map<std::string, T> map, const std::string& key) const {
       auto it = map.find(key);
-      return it == map.end() ? T{} : it->second;
+      return it == map.end() ? T() : it->second;
    }
 // END:duplication
 
